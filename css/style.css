@@ -1,5 +1,8 @@
 body {
   background-color: #E8E4C9;
+  display: block;
+  margin: auto;
+  max-width: 1300px;
 }
 
 h1 {
@@ -20,4 +23,35 @@ img {
   border: #000 solid 5px;
   border-radius: 50%;
   height: 300px;
+}
+
+#container {
+  padding: 0px 50px 10px 50px;
+  text-align: justify;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+header p {
+  padding: 10px 50px;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+footer {
+  padding: 0px 50px 10px 50px;
+  text-align: justify;  
+  display: block;
+  
+}
+
+footer h3 {
+  font-size: 1rem;
+  text-align: center;
 }
